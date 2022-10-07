@@ -17,6 +17,6 @@ public class App {
   
         teclado.close();
   
-        System.out.print(" A temperatura em graus Celsius é: "+ c);  
+        System.out.format("A temperatura em Celsius é %.1f ºC" , c); 
     }
 }
